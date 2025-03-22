@@ -22,4 +22,5 @@ body{
     color: white;
     border-radius: 30px;
     padding: 8px 29px;
+    cursor: pointer;
 }
