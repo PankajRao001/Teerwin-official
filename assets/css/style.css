@@ -37,9 +37,10 @@ body::after {
   padding: 8px 16px;
   border: 1px solid white;
   cursor: pointer;
+    transition: all 500ms;
 }
 .btn-join:hover{
-    background-color: white;
+    box-shadow: inset 150px 1px 1px -1px #fff;
     color: blue;
     border: 1px solid blue;
 }
