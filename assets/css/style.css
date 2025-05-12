@@ -37,6 +37,8 @@ body::after {
   padding: 12px 26px;
   border: 1px solid white;
   cursor: pointer;
+  text-wrap: nowrap;
+  font-size: 24px;
   transition: all 500ms;
 }
 .btn-join:hover {
