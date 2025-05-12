@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   position: relative;
   padding: 20px 16px;
-  background-image: url(../images/bring-night-space.avif);
+  background-image: url(../images/bg-img-lottery.png);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -34,40 +34,40 @@ body::after {
   border: 0;
   color: white;
   border-radius: 30px;
-  padding: 8px 16px;
+  padding: 12px 26px;
   border: 1px solid white;
   cursor: pointer;
-    transition: all 500ms;
+  transition: all 500ms;
 }
-.btn-join:hover{
-    box-shadow: inset 200px 1px 1px -1px #fff;
-    color: blue;
-    border: 1px solid blue;
+.btn-join:hover {
+  box-shadow: inset 200px 1px 1px -1px #fff;
+  color: blue;
+  border: 1px solid blue;
 }
-p{
-    color: white;
+p {
+  color: white;
 }
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-.text_shot{
-    font-size: 20px;
-    margin-top: 20px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+.text_shot {
+  font-size: 20px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
 }
-.text_tik{
-    font-size: 20px;
+.text_tik {
+  font-size: 20px;
 }
-.flex_div{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    margin-left: auto;
-    gap: 15px;
-    margin-right: auto;
+.flex_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: auto;
+  gap: 15px;
+  margin-right: auto;
 }
