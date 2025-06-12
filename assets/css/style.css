@@ -52,12 +52,14 @@ p {
   letter-spacing: 1px;
 }
 .flex_div {
+  max-width: 300px;
+  margin: 10px auto;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
   margin-left: auto;
-  gap: 15px;
+  gap: 10px;
   margin-right: auto;
 }
 .text_tik {
